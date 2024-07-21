@@ -16,6 +16,7 @@
 <%@ include file="Header.jsp"%>
 
 
+
 <% 
 IDM_Prodotto idm_prodotto = new IDM_Prodotto();
 Collection<Prodotto> products = idm_prodotto.doRetrieveAll();
