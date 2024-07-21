@@ -1,0 +1,45 @@
+body {
+    background-color: #f0f0f0; /* Grigio chiaro */
+    font-family: Arial, sans-serif;
+    color: #333; /* Colore del testo per un buon contrasto */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex; /* Utilizza flexbox per centrare il contenuto */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Assicura che il body occupi almeno l'altezza completa della finestra */
+    text-align: center;
+}
+
+.content {
+    padding-top: 75px; /* Spazio per l'header */
+    padding-bottom: 100px; /* Spazio per il footer */
+    margin-top: 20px; /* Spazio aggiuntivo tra l'header e il contenuto */
+    display: flex; /* Utilizza flexbox per centrare il contenuto */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+    box-sizing: border-box; /* Include padding e bordo nella larghezza totale */
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Limita la larghezza massima del contenuto */
+    text-align: center;
+    background-color: #fff; /* Colore di sfondo bianco per il contenuto */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding e bordo nella larghezza totale */
+}
+
+
+
+
+
+
+.contact-info {
+  margin-top: 50px;
+  text-align: center;
+}

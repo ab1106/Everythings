@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+  padding-top: 75px; /* Spazio per l'header */
+  padding-bottom: 100px; /* Spazio per il footer */
+  margin-top: 20px; /* Spazio aggiuntivo tra l'header e il contenuto */
+}
+
+.prodotto {
+    display: flex;
+    justify-content: space-between; /* Allinea i campi su tutta la larghezza del container */
+    margin-bottom: 10px;
+}
+
+.nome {
+    width: 10%; /* Larghezza del nome */
+    margin-left:50px;
+    text-align: center;
+}
+
+.quantita {
+    width: 10%; /* Larghezza della descrizione */
+    margin-right:60px;
+    text-align: center;
+    
+}
+
+.prezzo {
+    width: 10%; /* Larghezza del prezzo */
+    text-align: right; /* Allinea il prezzo a destra */
+    margin-right:50px;
+    
+}

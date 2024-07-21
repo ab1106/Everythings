@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    display: flex;
+}
+
+.left-column {
+    width: 10%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+}
+
+.right-column {
+    width: 90%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.left-column ul {
+    list-style: none;
+    padding: 0;
+    position: fixed
+}
+
+.left-column li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+/* Aggiornamento stile per i tipi di testo, le etichette e i pulsanti specifici del profilo */
+.testo {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bottoni {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bottoni:disabled {
+    background-color: #A9A9A9; /* Cambia il colore di sfondo quando il pulsante è disabilitato */
+    cursor: not-allowed; /* Cambia il cursore quando il pulsante è disabilitato */
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
+

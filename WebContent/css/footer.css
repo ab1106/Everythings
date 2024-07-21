@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+.site-footer {
+    position: fixed; /* Rendi il footer fisso in basso */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px; /* Imposta l'altezza desiderata per il footer */
+    background-color: #db730b;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-footer p,
+.site-footer ul {
+    margin: 0;
+}
+
+.site-footer ul {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.site-footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.site-footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}

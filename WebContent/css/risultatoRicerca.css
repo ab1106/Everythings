@@ -1,0 +1,136 @@
+.content {
+  padding-top: 75px; /* Spazio per l'header */
+  padding-bottom: 100px; /* Spazio per il footer */
+  margin-top: 20px; /* Spazio aggiuntivo tra l'header e il contenuto */
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  height: 300px; 
+  overflow: hidden;
+  background-color: #ffffff; 
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.slider-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 300px; 
+}
+
+.prev-button,
+.next-button {
+  font-size: 18px;
+  padding: 5px 10px;
+  height: 100%; 
+}
+
+@media (max-width: 768px) {
+  .slide-text {
+	  display: none;
+	}
+}
+
+.slide-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #db730b;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.left-text {
+  left: calc(10% + 10px); 
+}
+
+.right-text {
+  right: calc(10% + 10px);
+}
+
+
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.bottoni {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td {
+    padding-bottom: 100px; /* Aggiunge spazio sotto ogni cella */
+}
+
+td {
+    padding-right: 100px; /* Aggiunge spazio tra le colonne */
+}
+
+.hidden {
+    display: none;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}

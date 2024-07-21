@@ -1,0 +1,43 @@
+body{
+	background-image: url("../images/oggetti_everythings-removebg2.png");
+	background-color: #f7f7f7;
+}
+
+.error-message {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.error-message h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.error-message input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.forms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 300px;
+}
+
+.f0rm  {
+    background-color: #d4d4d4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    border: 5px solid black;
+}
+
+
+

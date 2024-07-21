@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    
+}
+
+.left-column {
+    width: 15%;
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+.right-column {
+    width: 70%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+}
+
+.carrello{
+	width: 15%;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    
+    
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.prodotto {
+    display: flex;
+    justify-content: space-between; /* Allinea i campi su tutta la larghezza del container */
+    margin-bottom: 10px;
+}
+
+.nome {
+    width: 60%; /* Larghezza del nome */
+}
+
+.quantita {
+    width: 10%; /* Larghezza della descrizione */
+}
+
+.prezzo {
+    width: 30%; /* Larghezza del prezzo */
+    text-align: right; /* Allinea il prezzo a destra */
+}
+
+.prezzoTOTALE {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right; /* Allinea il prezzo a destra */
+}
+
+.totale{
+	font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.bottoni {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
